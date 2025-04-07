@@ -1,0 +1,88 @@
+.article-footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.footer-box {
+
+    background: linear-gradient(to right, #082D33, #151D1F);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 352px;
+    
+
+}
+
+.logo-footer {
+
+text-align: center;
+padding-top: 50px;
+padding-bottom: 12px;
+
+}
+
+.ctt {
+
+   font-family: "Montserrat Alternates", sans-serif;
+   font-size: 60px;
+   font-weight: 300;
+   padding-bottom: 35px;
+
+}
+
+.footer-box p {
+
+    font-family: "Martel Sans", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 33px;
+
+}
+
+.button.-footerbtn {
+
+   width: 305px;
+   height: 50px;
+   border-radius: 15px;
+   margin-bottom: 25px;
+
+}
+
+.icon-footer {
+
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #0f2c2e, #3aa19e);
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 35px #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.footer-box img {
+
+    width: 28px; /* tamanho padrão para as imagens */
+    height: 28px;
+    object-fit: contain;
+}
+
+
+.icon-footer:hover {
+
+    transform: scale(1.15);
+    box-shadow: 0px 8px 45px  #000;
+
+}

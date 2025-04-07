@@ -1,0 +1,125 @@
+.article-rating {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 320px;
+    padding-right: 320px;
+    margin-bottom: 380px;
+
+
+}
+
+.title-rating {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.title-rating h1{
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    color: #082D33;
+    font-size: 45px;
+    padding-bottom: 12px;
+
+}
+
+.title-rating strong {
+
+    font-weight: 600;
+
+}
+
+.title-rating h2 {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #082D33;
+    padding-bottom: 150px;
+
+}
+
+.card-rating {
+
+    background-color: #03404E;
+    width: 408px;
+    height: 390px;
+    border-radius: 35px;
+    padding-top: 38px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 20px #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card-rating:hover {
+
+    transform: scale(1.05);
+    box-shadow: 8px 5px 35px #000;
+
+}
+
+.title-card-rating h1{
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 36px;
+
+}
+
+.title-card-rating p {
+
+    font-family: "Martel Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+
+.user-info {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card-rating img {
+
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding-right: 20px;
+
+}
+
+.user-rating h1{
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.user-rating h2 {
+
+    font-family: "Martel Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+

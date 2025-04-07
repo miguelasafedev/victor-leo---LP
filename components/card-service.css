@@ -1,0 +1,72 @@
+.article-service {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+
+
+}
+
+.card-service {
+
+    background: linear-gradient(to bottom, #082D33, #151D1F );
+    border-radius: 50px;
+    width: 400px;
+    height: 664px;
+    padding-top: 36px;
+    box-shadow: 5px 5px 25px #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+
+}
+
+.card-service:hover {
+
+    transform: scale(1.05);
+    box-shadow: 8px 8px 35px #000;
+
+}
+
+
+.card-service div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-service img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 316px;
+    height: 410px;
+    border-radius: 45px;
+    padding-bottom: 30px;
+
+}
+
+.card-service h1 {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 30px;
+
+}
+
+.card-service p {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+}

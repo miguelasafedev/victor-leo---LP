@@ -1,0 +1,56 @@
+.sobre {
+
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title-sobre h1 {
+    
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #082D33;
+    padding-bottom: 45px;
+
+}
+
+.title-sobre strong {
+
+    font-weight: 600;
+
+}
+
+.title-sobre p {
+
+    font-family: "Martel Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    width: 600px;
+
+}
+
+.sobre-box {
+
+    margin-left: 96px;
+    background: linear-gradient(to bottom, #082D33, #151D1F);
+    width: 682px;
+    height: 468px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 376px;
+
+}
+
+.sobre-box img {
+
+position: relative;
+top: -300px;
+object-fit: cover;
+width: 500px;
+height: 750px;
+   
+}
+

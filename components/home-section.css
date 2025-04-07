@@ -1,0 +1,91 @@
+.home-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+
+}
+
+
+.box {
+
+        background: radial-gradient(circle, #082D33, #1F1F1F);
+        width: 1060px;
+        height: 573px;
+        border-radius: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Espaço entre texto e imagem */
+        padding:  50px; /* Ajuste o padding interno */
+        box-sizing: border-box;
+
+}
+
+.text-content {
+    color: white; 
+    max-width: 50%; 
+  }
+
+.logo-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-right: 100px;
+
+}
+
+
+.h1-box-logo {
+
+    font-family: 'Cormorant Unicase', sans-serif; 
+    font-weight: bold;
+    color: #fff; 
+    font-size: 40px;
+
+
+}
+
+.h2-box-logo {
+
+        font-family: 'Cormorant Unicase', sans-serif; 
+        font-weight: normal;
+        color: #fff; 
+        font-size: 25px;
+
+        padding-bottom: 40px;
+
+}
+
+.reab-vidas {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    padding-bottom: 30px;
+
+}
+
+.reab-vidas.-second {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+
+}
+
+.vl-box-home {
+
+    position: relative;
+    top: -60px;
+    width: 462px;
+    height: 692px;
+    
+    
+
+
+    
+
+}
+
