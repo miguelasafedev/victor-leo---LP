@@ -8,6 +8,7 @@
      justify-content: flex-start;
      align-items: flex-start;
      padding-left: 352px;
+     overflow: hidden;
      
  
  }
@@ -90,14 +91,14 @@
 
  }
 
- /*
+ 
 .div-vl-img {
 
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 50%;
-    margin-left: 280px;
+    margin-left: 360px;
 
 }
 
@@ -108,12 +109,13 @@
     width: 100%;
     max-width: 400px;
     height: 772px;
-    margin-bottom: 100px;
-
+    position: relative;
+    top: -710px;
+    
 
  }
  
- */
+ 
 
  .litle-footer-box {
 
@@ -122,6 +124,7 @@
     height: 70px;
     padding-left: 365px;
     padding-top: 45px;
+    
 
  }
 
