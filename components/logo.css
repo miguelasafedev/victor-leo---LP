@@ -12,25 +12,25 @@
 
 .logo {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding: 20px 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px 0; 
 
 }
 
 h1 {
-    font-family: 'Cormorant Unicase', sans-serif; 
-    font-weight: bold;
-    color: #fff; 
-    font-size: 25px;
-    margin: 0;
-  }
+  font-family: 'Cormorant Unicase', sans-serif; 
+  font-weight: bold;
+  color: #fff; 
+  font-size: 25px;
+  margin: 0;
+}
 
-  h2 {
-    font-family: 'Cormorant Unicase', sans-serif; 
-    font-weight: normal;
-    color: #fff; 
-    font-size: 20px;
-    margin: 0; 
-  }
+h2 {
+  font-family: 'Cormorant Unicase', sans-serif; 
+  font-weight: normal;
+  color: #fff; 
+  font-size: 20px;
+  margin: 0; 
+}
