@@ -1,3 +1,10 @@
+#sobre {
+
+    scroll-margin-top: 280px; 
+
+
+}
+
 .sobre {
 
     margin-left: 350px;
@@ -47,7 +54,7 @@
 .sobre-box img {
 
 position: relative;
-top: -300px;
+top: -282px;
 object-fit: cover;
 width: 500px;
 height: 750px;
