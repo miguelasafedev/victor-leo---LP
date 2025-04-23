@@ -9,16 +9,7 @@
    align-items: flex-start; 
    padding-left: 352px; 
  
-   .div-vl-img {
-     width: 30rem;
-     height: auto;
- 
-     img {
-       width: 100%;
-       height: 100%;
-       margin-top: -9rem;
-     }
-   }
+  
  }
  
  .logo-footer {
@@ -84,21 +75,23 @@
  }
  
  .div-vl-img {
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-   width: 50%;
-   margin-left: 360px;
- }
- 
- .victor-footer-img {
-   object-fit: cover;
-   width: 100%;
-   max-width: 400px;
-   height: 772px;
-   position: relative;
-   top: -710px;
- }
+
+  object-fit: cover;
+  position: absolute;
+  bottom: -3487px;
+  width: 30rem;
+  height: auto;
+  margin-left: 800px;
+
+
+}
+
+.victor-footer-img {
+
+  width: 500px;
+
+}
+
  
  .litle-footer-box {
    background-color: #151d1f;
