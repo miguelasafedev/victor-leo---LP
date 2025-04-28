@@ -3,9 +3,11 @@
     header {
 
         flex-direction: column;
-        width: 480px;
-        height: 115px;
+        align-items: center;
+        gap: 10px;
 
     }
+
+
 
 }
