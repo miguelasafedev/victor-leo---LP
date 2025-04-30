@@ -54,7 +54,7 @@
     .box {
 
         width: 360px;
-        height: 445px;
+        height: 375px;
         border-radius: 45px;
         display: flex;
         align-items: center;
@@ -69,10 +69,10 @@
 
     position: relative;
     object-fit: cover;
-    top: -13px;
+    top: -23px;
     right: 180px;
     width: 250px;
-    height: 500px;
+    height: 465px;
     
 
 }
@@ -121,7 +121,7 @@
 
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 23px;
     padding-bottom: 30px;
 
 }
@@ -130,7 +130,15 @@
 
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
+    width: 160px;
+
+}
+
+.button.-homebtn {
+
+    width: 130px;
+
 
 }
 
