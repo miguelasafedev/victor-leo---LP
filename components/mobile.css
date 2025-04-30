@@ -53,14 +53,14 @@
 
     .box {
 
-        width: 584px;
+        width: 360px;
         height: 445px;
-        border-radius: 55px;
+        border-radius: 45px;
         display: flex;
         align-items: center;
         justify-content: space-between; /* Espaço entre texto e imagem */
-        padding-left: 40px;
-        padding-top: 60px;
+        padding-left: 20px;
+        padding-top: 5px;
         box-sizing: border-box;
 
 }
@@ -69,17 +69,19 @@
 
     position: relative;
     object-fit: cover;
-    top: -33px;
-    right: 60px;
-    width: 200px;
+    top: -13px;
+    right: 180px;
+    width: 250px;
     height: 500px;
     
 
 }
 
-.text-content {
+    .text-content {
+
     color: white; 
-    max-width: 100%; 
+    max-width: 120%; 
+   
   }
 
 .logo-box {
@@ -97,7 +99,7 @@
     font-family: 'Cormorant Unicase', sans-serif; 
     font-weight: bold;
     color: #fff; 
-    font-size: 30px;
+    font-size: 20px;
     white-space: nowrap;
     text-align: left;
     margin: 0;
@@ -119,7 +121,7 @@
 
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 20px;
     padding-bottom: 30px;
 
 }
