@@ -1,13 +1,127 @@
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 1000px) {
 
     header {
 
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        height: 175px;
+        padding-left: 175px;
+        padding-right: 175px;
+        padding-top: 12px;
+        padding-bottom: 50px;
+        
+    }
+
+    #nav-header {
+
+        display: flex;
+        margin-left: 0px;
+
+    }
+
+    ul {
+
+        gap: 60px;
+
+    }
+
+    #button-header {
+
+        display: none;
+
+    }
+    
+    .logo {
+
+        padding-bottom: 35px;
 
     }
 
 
+    .home-section {
+
+        padding: 60px 0;
+    
+    }
+
+    .box {
+
+        width: 584px;
+        height: 445px;
+        border-radius: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Espaço entre texto e imagem */
+        padding-left: 40px;
+        padding-top: 60px;
+        box-sizing: border-box;
+
+}
+
+.vl-box-home {
+
+    position: relative;
+    object-fit: cover;
+    top: -33px;
+    right: 60px;
+    width: 200px;
+    height: 500px;
+    
+
+}
+
+.text-content {
+    color: white; 
+    max-width: 100%; 
+  }
+
+.logo-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-right: -80px;
+    
+
+}
+
+.h1-box-logo {
+
+    font-family: 'Cormorant Unicase', sans-serif; 
+    font-weight: bold;
+    color: #fff; 
+    font-size: 30px;
+    white-space: nowrap;
+    text-align: left;
+    margin: 0;
+
+
+}
+
+.h2-box-logo {
+
+    font-family: 'Cormorant Unicase', sans-serif; 
+    font-weight: normal;
+    color: #fff; 
+    font-size: 18px;
+    padding-bottom: 40px;
+
+}
+
+.reab-vidas {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+    padding-bottom: 30px;
+
+}
+
+.reab-vidas.-second {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+
+}
 
 }
