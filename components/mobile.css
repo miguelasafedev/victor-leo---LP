@@ -150,7 +150,7 @@
     align-items: center;
     background: radial-gradient(circle, #082D33, #1F1F1F);
     width: 100%;
-    height: 1850px;
+    height: 1700px;
     border-radius: 0px;
     padding-top: 30px;
     margin-bottom: 130px;
@@ -159,16 +159,7 @@
 
 }
 
-.title-service {
 
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 42px;
-
-
-}
 
 .article-service {
 
@@ -189,8 +180,8 @@
 .card-service {
 
     border-radius: 60px;
-    width: 315px;
-    height: 490px;
+    width: 265px;
+    height: 440px;
     padding-top: 16px;
     box-shadow: 5px 5px 25px #000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -204,8 +195,8 @@
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
-    width: 280px;
-    height: 300px;
+    width: 225px;
+    height: 240px;
     border-radius: 50px;
     padding-bottom: 8px;
 
@@ -230,5 +221,18 @@
     text-align: center;
 
 }
+
+.title-service {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    font-size: 22px;
+
+}
+
+
 
 }
