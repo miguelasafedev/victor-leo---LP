@@ -409,15 +409,14 @@
     .footer-box {
 
         background: linear-gradient(to right, #082d33, #151d1f);
-        width: 480px;
+        width: 100%;
         height: 450px;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start; 
-        padding-left: 15px;
-        overflow-x: hidden;
+        padding-left: 10px;
       
       }
 
