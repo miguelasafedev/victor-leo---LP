@@ -487,4 +487,10 @@
    
   }
   
+body {
+
+    overflow-x: hidden;
+
+}
+
 }
