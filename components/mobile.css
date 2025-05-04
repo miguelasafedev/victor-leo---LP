@@ -416,7 +416,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start; 
-        padding-left: 15px;
+        padding-left: 20px;
       
       }
 
@@ -446,7 +446,7 @@
 .footer-box p {
     font-family: "Martel Sans", sans-serif;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     padding-bottom: 33px;
     
